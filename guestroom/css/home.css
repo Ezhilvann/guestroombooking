@@ -1,0 +1,91 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+.h1-font {
+    font-size: medium;
+    font-family: 'Merienda', cursive;
+}
+
+.h2-font {
+    font-size: larger;
+    font-family: 'Merienda', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.home1 {
+    font-weight: 500;
+}
+
+.custom-bg {
+    background-color: green;
+}
+
+.custom-bg:hover {
+    background-color: rgb(7, 48, 7);
+}
+
+.availability-form {
+    margin-top: -50px;
+    position: relative;
+}
+
+@media screen and(max-width:575px) {
+    .availability-form {
+        margin-top: 25px;
+       
+        padding: 0 35px;
+    }
+}
+
+footer{
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center;
+    color: white; 
+   
+}
+
+.h2-font {
+    font-size: larger;
+    font-family: 'Merienda', cursive;
+    color: white; /* Add this to ensure text is visible on a dark background */
+}
+
+.container {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.btn-outline-dark {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+/* 
+@media screen and (max-width: 575px) {
+    footer {
+        position: relative;
+    }
+} */
+/* .pro1{
+    font-family: 'Josefin Sans', sans-serif;
+ 
+} */

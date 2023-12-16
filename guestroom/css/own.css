@@ -1,0 +1,61 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+.wer1 {
+    font-family: 'Merienda', cursive;
+    color: antiquewhite;
+}
+
+.form-label {
+    color: white;
+}
+
+.custom-bg {
+    background-color: green;
+}
+
+.custom-bg:hover {
+    background-color: rgb(7, 48, 7);
+}
+
+
+body{
+   
+        background-image: url('images/own1.jpg'); /* Update the path accordingly */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    
+}
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Add an overlay with 50% opacity (adjust as needed) */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.card.style {
+    background-color: rgba(42, 16, 66, 0.438);
+    width: 60vw;
+    min-width: 320px;
+    margin: auto;
+}
+
+/* Add any other styles as needed */
+/* .masthead { */
+    /* background-image: url('images/own1.jpg'); /* Update the path accordingly */
+    /* background-size: cover;
+    background-attachment: fixed; */ 
+    /* background-position: center;
+    background-repeat: no-repeat;
+    position: relative; */
+/* } */
